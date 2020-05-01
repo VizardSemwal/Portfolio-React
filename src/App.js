@@ -1,25 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Switch,Route} from 'react-router-dom';
+import PortFolio from './portfolio/PortFolio';
+import ContactUs from './contactus/ContactUs';
+import AboutUs from './aboutus/AboutUs';
+import Home from './home/Home';
+import Modal from './components/Modal'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+       
+       <div>
+       <Navbar />
+       <Switch>
+              <Route exact path="/"  component={Home} />
+               <Route path="/portfolio"   component={PortFolio} />
+               <Route path="/contactus"  component={ContactUs} />
+               <Route path="/aboutus"  component={AboutUs} />
+               
+
+       </Switch>
+
+       </div>
+      <Modal />
+    </React.Fragment>
   );
 }
 
