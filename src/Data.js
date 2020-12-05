@@ -183,6 +183,21 @@ export const logos = [ //store Products
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     liked: false
   },
+    {
+    id: 22,
+    title: "Swati Zumba Classes",
+    img: "images/Swati.png",
+  
+    info:
+      "Zumba is one of the most fun and versatile fitness crazes to come along in a long time. Classes can be geared for just about any fitness level. Though most Zumba involves high-impact moves like bouncing and jumping, it can be modified to meet your needs.
+
+If you want an overall strength training program, look for a Zumba class that incorporates some light weights for your upper body.
+
+You can start slowly if needed, or you can dance your heart out if you are in great shape. If you just love to move your body to the music, then Zumba is for you.
+
+Talk to your doctor before joining a class if you have been inactive, have any medical issues, or take any medicines, just to make sure Zumba is right for you. And talk to instructors before class about your fitness level and any health conditions you have so they can suggest modifications.",
+    liked: false
+  },
   {
     id: 2,
     title: "Tooday",
