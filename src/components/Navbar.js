@@ -36,7 +36,7 @@ render(){
       <Link to="/portfolio" className="nav-item nav-link active pr-5" >Portfolio </Link>
       <Link to="/contactus" className="nav-item nav-link pr-5" >Contact Me</Link>
       <Link to="/aboutus" className="nav-item nav-link pr-5" >About Me</Link>
-      
+      <Link to="/privacy-policy" className="nav-item nav-link pr-5" >Privacy Policy</Link>
     </div>
   </div>
 </nav>
