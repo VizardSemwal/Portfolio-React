@@ -5,6 +5,7 @@ import {Switch,Route} from 'react-router-dom';
 import PortFolio from './portfolio/PortFolio';
 import ContactUs from './contactus/ContactUs';
 import AboutUs from './aboutus/AboutUs';
+import Privacy from './PrivacyPolicy/Privacy';
 import Home from './home/Home';
 import Modal from './components/Modal'
 
@@ -20,7 +21,7 @@ function App() {
                <Route path="/portfolio"   component={PortFolio} />
                <Route path="/contactus"  component={ContactUs} />
                <Route path="/aboutus"  component={AboutUs} />
-               
+               <Route path="/privacy-policy"  component={Privacy} />
 
        </Switch>
 
